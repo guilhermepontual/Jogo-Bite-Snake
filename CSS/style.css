@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+.title{
+font-family: 'Poppins', sans-serif;
+background-color: black;
+transition: .3s ease all;
+border-radius: 5px;
+width: 300px;
+text-align: center;
+}
+
+.title:hover{
+  background-color: lightgreen;
+  color: black;
+}
+
+  
+body{
+  height: 95vh;
+  width: 95vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to right, rgba(38,38,38,2), rgba(4,211,97,1));
+  color: #04d361;
+  
+}
